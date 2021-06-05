@@ -4,7 +4,11 @@
 Given a customer file and a office location, figure out all customers within 100Km of office.
 
 ### Approach
-Since the requirements were simple enough functional programming approach was taken. Each step is written as a function, constants are separated in a different file. For testing pytest was used.
+Since the requirements were simple enough functional programming approach was taken. 
+Each step is written as a function, constants are separated in a different file.
+Customers are represented as a python dictionary instead of a class since no methods were needed to interact with customers or manipulate their data.
+For testing pytest was used.
+
 
 ### How to run and test
 1. Create and source python virtual environment
